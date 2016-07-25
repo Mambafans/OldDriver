@@ -44,6 +44,7 @@ public class EmbarrassingCircleFragment extends BaseFragment implements View.OnC
         return view;
     }
 
+
     private void setListData() {
         NextDoorFragment nextDoorFrag = new NextDoorFragment();
         HavePowderFragment havePowderFrag = new HavePowderFragment();
