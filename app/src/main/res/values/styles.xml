@@ -7,7 +7,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <!--糗事页面的标题样式-->
+    <!--糗事,糗友圈页面的标题样式-->
     <style name="EmbarrassingFragmentTitleTextStyle">
         <item name="android:textSize">@dimen/titleTextSize</item>
         <item name="android:layout_height">wrap_content</item>
@@ -15,7 +15,6 @@
         <item name="android:textColor">@color/lightWhite</item>
         <item name="android:background">@null</item>
     </style>
-
 
     <style name="MainRadioButtonTextStyle">
         <item name="android:layout_width">0dp</item>

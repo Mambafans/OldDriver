@@ -8,40 +8,59 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@color/yellow"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:paddingLeft="15dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/embarrassing_circle_btn_next"
+                style="@style/EmbarrassingFragmentTitleTextStyle"
+                android:text="@string/next_door" />
+
+            <Button
+                android:id="@+id/embarrassing_circle_btn_have_powder"
+                style="@style/EmbarrassingFragmentTitleTextStyle"
+                android:text="@string/have_powder" />
+
+            <Button
+                android:id="@+id/embarrassing_circle_btn_video_circle"
+                style="@style/EmbarrassingFragmentTitleTextStyle"
+                android:text="@string/video_circle" />
+
+            <Button
+                android:id="@+id/embarrassing_circle_btn_topic"
+                style="@style/EmbarrassingFragmentTitleTextStyle"
+                android:text="@string/topic" />
+        </LinearLayout>
 
         <Button
-            android:id="@+id/embarrassing_circle_btn_next"
-            style="@style/EmbarrassingFragmentTitleTextStyle"
-            android:text="@string/next_door" />
-
-        <Button
-            android:id="@+id/embarrassing_circle_btn_have_powder"
-            style="@style/EmbarrassingFragmentTitleTextStyle"
-            android:text="@string/have_powder" />
-
-        <Button
-            android:id="@+id/embarrassing_circle_btn_video_circle"
-            style="@style/EmbarrassingFragmentTitleTextStyle"
-            android:text="@string/video_circle" />
-
-        <Button
-            android:id="@+id/embarrassing_circle_btn_topic"
-            style="@style/EmbarrassingFragmentTitleTextStyle"
-            android:text="@string/topic" />
-        <Button
+            android:id="@+id/embarrassing_circle_btn_sign_in"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/embarrassing_circle_iv_add"
+            android:background="@drawable/embarrassing_circle_sign_in"
+            android:backgroundTint="#fff"
             android:drawableLeft="@drawable/qiuyou_circle_foot"
             android:text="@string/sign_in"
             android:textColor="@color/yellow"
-            android:background="@null"
-            />
+            android:textSize="14sp" />
+
         <ImageView
             android:id="@+id/embarrassing_circle_iv_add"
             android:layout_width="35dp"
             android:layout_height="match_parent"
             android:padding="8dp"
             android:src="@drawable/submit" />
+
     </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/embarrassing_circle_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
 </LinearLayout>

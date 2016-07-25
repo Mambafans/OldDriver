@@ -29,8 +29,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private SmallPagerFragment smallPagerFrag;
     private MeFragment meFrag;
 
-    private int sts;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
