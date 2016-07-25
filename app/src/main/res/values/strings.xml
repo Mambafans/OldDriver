@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">OldDriver</string>
+    <string name="embarrassing_things">糗事</string>
+    <string name="embarrassing_circle">糗友圈</string>
+    <string name="live">直播</string>
+    <string name="small_paper">小纸条</string>
+    <string name="me">我</string>
+    <string name="exclusive">专享</string>
+    <string name="video">视频</string>
+    <string name="plain_text">纯文</string>
+    <string name="plain_image">纯图</string>
+    <string name="essence">精华</string>
+    <string name="through">穿越</string>
+    <string name="next_door">隔壁</string>
+    <string name="have_powder">已粉</string>
+    <string name="video_circle">视频</string>
+    <string name="topic">话题</string>
+    <string name="sign_in">签到</string>
+</resources>

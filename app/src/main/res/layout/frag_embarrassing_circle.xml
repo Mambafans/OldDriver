@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/yellow"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/embarrassing_circle_btn_next"
+            style="@style/EmbarrassingFragmentTitleTextStyle"
+            android:text="@string/next_door" />
+
+        <Button
+            android:id="@+id/embarrassing_circle_btn_have_powder"
+            style="@style/EmbarrassingFragmentTitleTextStyle"
+            android:text="@string/have_powder" />
+
+        <Button
+            android:id="@+id/embarrassing_circle_btn_video_circle"
+            style="@style/EmbarrassingFragmentTitleTextStyle"
+            android:text="@string/video_circle" />
+
+        <Button
+            android:id="@+id/embarrassing_circle_btn_topic"
+            style="@style/EmbarrassingFragmentTitleTextStyle"
+            android:text="@string/topic" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/qiuyou_circle_foot"
+            android:text="@string/sign_in"
+            android:textColor="@color/yellow"
+            android:background="@null"
+            />
+        <ImageView
+            android:id="@+id/embarrassing_circle_iv_add"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:src="@drawable/submit" />
+    </LinearLayout>
+</LinearLayout>
